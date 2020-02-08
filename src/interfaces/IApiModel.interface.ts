@@ -1,4 +1,6 @@
 export interface IApiModel {
     name: string;
-    properties: any;
+    slug: string;
+    items: Array<any>;
+    generate(total: number): Array<any>;
 }

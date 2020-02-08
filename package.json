@@ -4,7 +4,8 @@
   "description": "Seed using Api Request",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/MaxySpark/Api-Seeder#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "faker": "^4.1.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
