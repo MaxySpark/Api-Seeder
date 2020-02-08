@@ -22,7 +22,7 @@ export class App {
         const items = await this.model.generate(total);
         const baseModel = new BaseModel(this.model.name, this.model.slug, login.token)
         for (let i = 0; i < items.length; i++) {
-            await baseModel.insertData(items[0]);
+            await baseModel.insertData(items[i]);
         }
         const endTime = Date.now();
 
